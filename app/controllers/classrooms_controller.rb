@@ -6,6 +6,5 @@ class ClassroomsController < ApplicationController
 
   def index
     @classrooms = Classroom.all
-    @students = Students.all
   end
 end
